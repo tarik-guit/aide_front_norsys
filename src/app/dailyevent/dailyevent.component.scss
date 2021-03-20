@@ -1,0 +1,80 @@
+
+
+body {
+  background-image: url("dailyevent.jpg");
+  height:720px;
+}
+.image1 {
+  background-image: url("meeting.jpg");
+}
+
+.padding1{
+
+  padding:100px;
+  padding-left:400px;
+  padding-top:60px;
+
+}
+.shadow1 {
+  box-shadow: 1px 1px 12px #555;
+
+}
+.svg1 {
+  background-image: url(alarm.svg);
+  height:10px;
+}
+.color1 {
+
+  background-color:#ABB2B9;
+}
+.margel{
+
+  margin-left:72%;
+}
+.color2{
+  color:#F39C12;
+}
+
+.color3{
+  background-color:#D7BDE2 ;
+}
+
+.color4:hover{
+  background-color:#AF7AC5 ;
+}
+
+.margel2{
+
+  margin-left:54%;
+}
+
+
+@keyframes animalarme {
+
+  from {color:#0000}
+
+  to {color:#fdfdfd}
+
+}
+
+
+#animation1{
+  animation-name:animalarme;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+
+}
+
+.margel3{
+
+  margin-left:17%;
+}
+
+.underline:hover{
+  text-decoration: underline ;
+}
+
+
+
+
